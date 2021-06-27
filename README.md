@@ -22,7 +22,7 @@ If you have questions or feedback, please ask in [#hip-open-discussion in the co
 | 9  | [Ensuring trust for non-Helium hotspots (DIY gateways)](https://github.com/helium/HIP/blob/7b715a0614d4c529144e1d6c0083ee8b38c05b29/0009-non-helium-hotspots.md) | [Draft](https://github.com/helium/HIP/pull/15) |
 | 10 | [Proportional reward scheme for data transfers](https://github.com/helium/HIP/blob/master/0010-usage-based-data-transfer-rewards.md) | Deployed |
 | 11 | [Amendment to proportional data transfer reward scheme](https://github.com/helium/HIP/blob/master/0011-usage-based-rewards-structure.md) | [Closed](https://github.com/helium/HIP/pull/49#issuecomment-705306806) |
-| 12 | [Remote location assertion](https://github.com/helium/HIP/blob/master/0012-remote-location-assert.md) | [Approved](https://github.com/helium/HIP/issues/39) |
+| 12 | [Remote location assertion](https://github.com/helium/HIP/blob/master/0012-remote-location-assert.md) | [Deployed](https://github.com/helium/HIP/issues/39) ([audit](https://github.com/helium/miner/blob/master/audit/var-59.md) / [txn](https://explorer.helium.com/txns/B6SddkhG_OgayRYLfumkIUho1OpDYnqyzAA8Tkf0xzs)) |
 | 13 | [Transfer hotspot](https://github.com/helium/HIP/blob/master/0013-transfer-hotspot.md) | [Deployed](https://github.com/helium/HIP/issues/43) ([audit](https://github.com/helium/miner/blob/master/audit/var-48.md) / [txn](https://explorer.helium.com/txns/DywtCExrXhTxv8VoDZl_hJDjQ2PUcov_AYrW98ZPpcg)) |
 | 14 | [PoC Ripple Method](https://github.com/helium/HIP/blob/master/0014-poc-ripple-method.md) | [In Discussion](https://github.com/helium/HIP/issues/50) |
 | 15 | [Beaconing Rewards](https://github.com/helium/HIP/blob/master/0015-beaconing-rewards.md) | [Deployed](https://github.com/helium/blockchain-core/pull/662) ([audit](https://github.com/helium/miner/blob/master/audit/var-50.md) / [txn](https://explorer.helium.com/txns/vnEqwbKtFfFxXgYI_9L5Th0LRVkpJlsX-sQzZTh2VwY)) |
@@ -32,12 +32,16 @@ If you have questions or feedback, please ask in [#hip-open-discussion in the co
 | 19 | [Approval Process For Third-Party Manufacturers](https://github.com/helium/HIP/blob/master/0019-third-party-manufacturers.md) | [Approved](https://github.com/helium/HIP/issues/87) |
 | 20 | [HNT Max Supply](https://github.com/helium/HIP/blob/master/0020-hnt-max-supply.md) | [Approved](https://github.com/helium/HIP/issues/73) |
 | 21 | [PoC Link Layer Upgrades](https://github.com/helium/HIP/blob/master/0021-poc-link-layer.md) | [In Discussion](https://github.com/helium/HIP/issues/78) |
-| 22 | [Anchor/Golden Gateways](https://github.com/helium/HIP/blob/master/0022-anchor-gateways.md) | [In Discussion](https://github.com/helium/HIP/issues/94) |
+| 22 | [DIY Concentrators (f/k/a Golden or Anchor Gateways)](https://github.com/helium/HIP/blob/master/0022-diy-concentrators.md) | [In Discussion](https://github.com/helium/HIP/issues/94) |
 | 23 | [Decouple Consensus From Gateways](https://github.com/helium/HIP/blob/master/0023-decouple-consensus-from-gateways.md) | [In Discussion](https://github.com/helium/HIP/issues/101) |
 | 24 | [Transfer Percentage of Hotspot](https://github.com/helium/HIP/blob/master/0024-reward-splitting.md) | [In Discussion](https://github.com/helium/HIP/issues/105) |
 | 25 | [Validators](https://github.com/helium/HIP/blob/master/0025-validators.md) | [Approved](https://github.com/helium/HIP/issues/111) |
 | 26 | [Payment Notes](https://github.com/helium/HIP/blob/master/0026-payment-notes.md) | [In Discussion](https://github.com/helium/HIP/issues/125) |
-| 27 | [Support CBRS 5G](https://github.com/helium/HIP/blob/master/0027-cbrs-5g-support.md) | [In Discussion](https://github.com/helium/HIP/pull/133) |
+| 27 | [Support CBRS 5G](https://github.com/helium/HIP/blob/master/0027-cbrs-5g-support.md) | [Approved](https://github.com/helium/HIP/pull/133) |
+| 28 | [Consensus Reward Adjustments](https://github.com/helium/HIP/blob/master/0028-consensus-reward-adjustments.md) | [In Discussion](https://github.com/helium/HIP/issues/140) |
+| 29 | [Multi-signature Keys](https://github.com/helium/HIP/blob/master/0029-multisignature-keys.md) | [Approved](https://github.com/helium/HIP/issues/157) |
+| 30 | [BLS12-381 for Threshold Cryptography](https://github.com/helium/HIP/blob/master/0030-update-threshold-cryptography.md) | [Approved](https://github.com/helium/HIP/issues/158) |
+| 31 | [Governance by Token Burn](https://github.com/helium/HIP/blob/master/0031-governance-by-token-burn.md) | [In Discussion](https://github.com/helium/HIP/issues/183) |
 
 
 ## HIP19 third-party manufacturers
@@ -47,9 +51,16 @@ If you have questions or feedback, please ask in [#hip-open-discussion in the co
 | [Nebra Ltd](https://github.com/helium/HIP/blob/master/0019-third-party-manufacturers/nebra-ltd.md) | 2020-12-10 | [Approved](https://github.com/helium/HIP/pull/93) |
 | [SyncroB.it](https://github.com/helium/HIP/blob/master/0019-third-party-manufacturers/syncrobit.md) | 2020-12-14 | [Approved](https://github.com/helium/HIP/pull/96) |
 | [RAK Wireless](https://github.com/helium/HIP/blob/master/0019-third-party-manufacturers/rak-wireless.md) | 2020-12-29 | [Approved](https://github.com/helium/HIP/pull/103) |
-| [EasyLinkin](https://github.com/helium/HIP/blob/master/0019-third-party-manufacturers/easylinkin.md) | 2021-01-12 | [Approved](https://github.com/helium/HIP/pull/107) |
+| [EasyLinkin (Bobcat)](https://github.com/helium/HIP/blob/master/0019-third-party-manufacturers/easylinkin.md) | 2021-01-12 | [Approved](https://github.com/helium/HIP/pull/107) |
 | [Kerlink](https://github.com/BenoitDuffez/HIP/blob/hip19-kerlink/0019-third-party-manufacturers/kerlink.md) | 2021-02-24 | [Approved](https://github.com/helium/HIP/pull/121) |
+| [HeNet BV/LongAP](https://github.com/HeNet/HIP/blob/feature/hip19-henet-application/0019-third-party-manufacturers/henet.md) | 2021-03-16 | [Approved](https://github.com/helium/HIP/pull/137) |
+| [Smart Mimic](https://github.com/onterferon/HIP/blob/master/0019-third-party-manufacturers/smart-mimic.md) | 2021-03-25 | [Approved](https://github.com/helium/HIP/pull/138) |
+| [Browan](https://github.com/browanofficial/HIP/blob/patch-1/0019-third-party-manufacturers/Browan-Cellular-Gateway.md) | 2021-03-26 | [In Discussion](https://github.com/helium/HIP/pull/139) |
+| [Dragino](https://github.com/dragino/HIP/blob/master/0019-third-party-manufacturers/dragino.md) | 2021-04-02 | [In Discussion](https://github.com/helium/HIP/pull/145) |
+| [ClodPi](https://github.com/clodpi/HIP/blob/master/0019-third-party-manufacturers/clodpi.md) | 2021-04-11 | [In Discussion](https://github.com/helium/HIP/pull/147) |
+| [FreedomFi](https://github.com/zer0tweets/HIP/blob/patch-5/0019-third-party-manufacturers/freedomfi.md) | 2021-04-20 | [In Discussion](https://github.com/helium/HIP/pull/156) |
 
+The most up to date status of manufacturers in progress can be [viewed here](https://docs.google.com/spreadsheets/d/1pOmrMV_oiF0FtR1NOX_pqykKOBsb_QghiNkTlF644DU/edit?usp=sharing)
 
 ## Status key
 
@@ -58,4 +69,3 @@ If you have questions or feedback, please ask in [#hip-open-discussion in the co
 * Approved: HIP has been approved by rough consensus, and pending development and testing
 * Deployed: Code to implement HIP has been merged and deployed to the network
 * Closed: HIP abandoned, rendered obsolete by other changes, or otherwise withdrawn by the author
-
