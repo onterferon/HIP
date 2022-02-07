@@ -31,7 +31,7 @@ Finestra Miner - Specifications:
 
 	● Processor	Raspberry Pi 4 
 	● LoRa® Frequency band support	RU864, IN865, EU868, US915, AU915, KR920, AS923.
-	● Network Connectivity	2.4 GHz and 5.0 GHz IEEE 802.11ac wireless
+	● Network Connectivity	2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Ethernet
 	● Device Connectivity	Bluetooth 5
 	● Based on LoRa Concentrator Engine: Semtech® SX1302
 	● Security	ECC608 Crypto Cell Authentication
